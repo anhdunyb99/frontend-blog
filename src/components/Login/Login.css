@@ -1,0 +1,97 @@
+/* LoginPage.css */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.ad-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.login-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.login-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.create-account {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #007bff;
+  background-color: transparent;
+  color: #007bff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.or {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.google-signin {
+  width: 100%;
+  padding: 10px;
+  background-color: #db4437;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center; /* This ensures vertical alignment */
+  white-space: nowrap; /* Prevents the text from wrapping */
+}
+
+.checkbox {
+  margin-right: 10px; /* Adjust as needed */
+}
